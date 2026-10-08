@@ -60,3 +60,9 @@
 }
 @media (max-width:640px){.mark small{display:none}.mark b{font-size:.98rem;max-width:13ch}.cl-full{display:none}.cl-short{display:inline}.nav{gap:var(--s3);min-height:62px}.mk{width:34px;height:34px}.mk::before{top:16px}.mk i{top:12px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.js-ready .rv{opacity:1;transform:none}.js-ready .laser .beam{transform:none}.js-ready .laser .read{opacity:1}html{scroll-behavior:auto}}
+
+/* device QA: 44px tap targets on phones */
+.menu-btn,.btn--call,.mark{min-height:44px}
+.ft-num{display:inline-flex;align-items:center;min-height:44px}
+/* device QA: placeholder tags readable on phones */
+.ph{font-size:.75rem}
