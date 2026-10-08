@@ -1,6 +1,6 @@
 # Static page builder for the Carolina Foundation Repairs concept. Run: python3 build.py
 import json
-BASE = 'https://daveo820.github.io/carolina-foundation-repairs-demo/'  # temporary GitHub Pages link; swap for Vercel later
+BASE = 'https://carolina-foundation-repairs-demo.vercel.app/'  # Vercel production URL
 TEL, TEL_H = '+12526376667', '(252)&nbsp;637&#8209;6667'
 EXA = 'https://exa.ai/library/place/hmx2d0t6zt9'
 ORG = {"@context":"https://schema.org","@type":"GeneralContractor","name":"Carolina Foundation Repairs, Inc.",
